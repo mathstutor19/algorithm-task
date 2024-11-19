@@ -10,33 +10,32 @@ const Destination = () => {
         <SectionSubtitle text="Choose your" />
         <SectionTitle text="Destination" />
         <div className="destination__cards">
-          <article className="destination__card">
+          <article className="destination__card destination__card__first">
             <h3 className="destination__title">Malaysia</h3>
             <Link className="destination__link" to="/">
               16 Tours
             </Link>
           </article>
-          <div className="destination__right">
-            <article className="destination__card">
-              <h3 className="destination__title">Malaysia</h3>
-              <Link className="destination__link" to="/">
-                16 Tours
-              </Link>
-            </article>
-            <article className="destination__card">
-              <h3 className="destination__title">Malaysia</h3>
-              <Link className="destination__link" to="/">
-                16 Tours
-              </Link>
-            </article>
-            <article className="destination__card">
-              <h3 className="destination__title">Malaysia</h3>
-              <Link className="destination__link" to="/">
-                16 Tours
-              </Link>
-            </article>
-          </div>
+          <article className="destination__card destination__card__second">
+            <h3 className="destination__title">Dubai</h3>
+            <Link className="destination__link" to="/">
+              16 Tours
+            </Link>
+          </article>
+          <article className="destination__card destination__card__third">
+            <h3 className="destination__title">Greece</h3>
+            <Link className="destination__link" to="/">
+              16 Tours
+            </Link>
+          </article>
+          <article className="destination__card  destination__card__fourth">
+            <h3 className="destination__title">Singapore</h3>
+            <Link className="destination__link" to="/">
+              16 Tours
+            </Link>
+          </article>
         </div>
+        <Link to="/" className="destination__more">View More</Link>
       </div>
     </section>
   );
