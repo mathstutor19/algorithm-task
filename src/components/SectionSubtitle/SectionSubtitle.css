@@ -5,3 +5,9 @@
   line-height: normal;
   text-align: center;
 }
+
+@media screen and (max-width: 576px) {
+  .section__subtitle {
+    font-size: 36px;
+  }
+}
