@@ -122,3 +122,13 @@
     grid-row-start: 4;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .destination__title {
+    font-size: 36px;
+  }
+
+  .destination__link {
+    padding: 13px 14px;
+  }
+}

@@ -1,0 +1,30 @@
+.activity {
+  padding-top: 90px;
+}
+
+.activity__text {
+  max-width: 780px;
+  margin: 18px auto 45px;
+  color: #1e1e1e;
+  line-height: 26px; /* 162.5% */
+  text-align: center;
+}
+
+.activity__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 36px 24px;
+}
+
+@media screen and (max-width: 992px) {
+  .activity__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .activity__cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+}
