@@ -7,7 +7,7 @@ const TourCard = ({ id, title, time, amount }) => {
       <div className="tour__card__content">
         <div>
           <h4 className="tour__card__title">{title}</h4>
-          <time datetime="" className="tour__card__time">
+          <time dateTime="" className="tour__card__time">
             {time}
           </time>
         </div>

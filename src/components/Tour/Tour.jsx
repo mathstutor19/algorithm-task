@@ -17,7 +17,7 @@ const Tour = () => {
         </p>
         <ul className="tour__cards">
           {tourCardDate.map((card) => (
-            <TourCard
+            <TourCard key={card.id}
               id={card.id}
               title={card.title}
               time={card.time}

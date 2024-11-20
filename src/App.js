@@ -6,6 +6,7 @@ import Tour from "./components/Tour/Tour";
 import Photos from "./components/Photos/Photos";
 import Reviews from "./components/Reviews/Reviews";
 import Newsletter from "./components/Newsletter/Newsletter";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Photos />
         <Reviews />
         <Newsletter />
+        <Footer />
       </div>
     </BrowserRouter>
   );
