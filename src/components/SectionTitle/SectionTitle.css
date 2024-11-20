@@ -6,6 +6,7 @@
   line-height: normal;
   text-transform: uppercase;
   text-align: center;
+  margin-top: 18px;
 }
 
 @media screen and (max-width: 576px) {

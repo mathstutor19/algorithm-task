@@ -1,0 +1,30 @@
+.tour {
+  padding-top: 76px;
+}
+
+.tour__text {
+  max-width: 780px;
+  margin: 18px auto 36px;
+  color: #1e1e1e;
+  text-align: center;
+  line-height: 26px; /* 162.5% */
+}
+
+.tour__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+@media screen and (max-width: 992px) {
+  .tour__cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .tour__cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+}
