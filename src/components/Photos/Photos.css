@@ -1,30 +1,36 @@
-.activity {
+.photos {
   padding-top: 76px;
 }
 
-.activity__text {
+.photos__text {
   max-width: 780px;
-  margin: 18px auto 36px;
   color: #1e1e1e;
-  line-height: 26px; /* 162.5% */
   text-align: center;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+  margin: 18px auto 46px;
 }
 
-.activity__cards {
+.photos__wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 36px 24px;
+  gap: 20px;
 }
-
+.photos__image {
+  width: 100%;
+}
 @media screen and (max-width: 992px) {
-  .activity__cards {
+  .photos__text {
+    font-size: 14px;
+  }
+
+  .photos__wrapper {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (max-width: 576px) {
-  .activity__cards {
+  .photos__wrapper {
     grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
   }
 }
