@@ -5,6 +5,7 @@ import Activity from "./components/Activity/Activity";
 import Tour from "./components/Tour/Tour";
 import Photos from "./components/Photos/Photos";
 import Reviews from "./components/Reviews/Reviews";
+import Newsletter from "./components/Newsletter/Newsletter";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Tour />
         <Photos />
         <Reviews />
+        <Newsletter />
       </div>
     </BrowserRouter>
   );
