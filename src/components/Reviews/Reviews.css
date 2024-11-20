@@ -1,0 +1,83 @@
+.reviews {
+  padding-top: 76px;
+}
+.reviews__text {
+  max-width: 780px;
+  margin: 18px auto 36px;
+  color: #1e1e1e;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.reviews__comment {
+  position: relative;
+  max-width: 980px;
+  min-height: 192px;
+  padding: 38px 37px;
+  margin: 120px auto 18px;
+  background-image: url(../../essets/reviews-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  line-height: 26px; /* 162.5% */
+}
+
+.reviews__comment::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -30px;
+  left: 43px;
+  width: 77px;
+  height: 77px;
+  background-image: url(../../essets/queto.svg);
+  background-repeat: no-repeat;
+}
+
+.reviews__images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  overflow: hidden;
+}
+
+.reviews__name {
+  color: #1e1e1e;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.reviews__place {
+  color: #1e1e1e;
+  text-align: center;
+  line-height: 26px; /* 162.5% */
+  margin-top: 2px;
+}
+
+@media screen and (max-width: 992px) {
+  .reviews__name {
+    display: none;
+  }
+
+  .reviews__place {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .reviews__images {
+    gap: 20px;
+  }
+  .reviews__comment {
+    padding: 28px 27px;
+    font-size: 14px;
+  }
+}
